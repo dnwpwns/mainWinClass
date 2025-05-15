@@ -5,19 +5,6 @@
 3. 3. 몇개의 Class로 만들어진 app 
 
 ## pyQTapp01.py
-'''
-from PyQt6 import uic
-from PyQt6.QtWidgets import QApplication
-
-Form, Window = uic.loadUiType("dialog.ui")
-
-app = QApplication([])
-window = Window()
-form = Form()
-form.setupUi(window)
-window.show()
-app.exec()
-'''
 
 pyQTapp02와 pyQTapp03은 기능을 확장한 것들이다.
 
